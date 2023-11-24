@@ -16,7 +16,7 @@ Email: $email
 ";
 
 // Enviamos el correo electrónico
-mail("vburbano@live.com", "Submitted form", $mensaje);
+mail("sendmailphp05@gmail.com", "Submitted form", $mensaje);
 
 // Retornamos un mensaje de confirmación
 echo "The email has been sent successfully.";
